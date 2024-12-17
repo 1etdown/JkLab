@@ -5,7 +5,8 @@ app = Flask(__name__)
 SONGS_DB = [
     {"id": 1, "title": "Like a Rolling Stone", "artist": "Bob Dylan"},
     {"id": 2, "title": "Imagine", "artist": "John Lennon"},
-    {"id": 3, "title": "Smells Like Teen Spirit", "artist": "Nirvana"}
+    {"id": 3, "title": "Smells Like Teen Spirit", "artist": "Nirvana"},
+    {"id": 4, "title": "Comfortably Numb", "artist": "Pink Floyd"}
 ]
 
 @app.route('/')
